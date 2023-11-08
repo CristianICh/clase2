@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#calcu{
+    display: flex;
+    border: 2px solid #000;
+    padding: 2vw;
+   justify-content:center;
+   width: 25vw;
+   margin: 2vh 35% ;
+   gap: 1vw;
+   background-color:#042940 ;
+    
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    gap: 1vw;
+    
+    
+}
+#input input{
+   font-size: 1.5vw;
+   border-radius: 5vw;
+   text-align: center;
+   height: 4vh;
+}
+#operacion{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+ button{
+    font-size: 4vw;
+    border-radius: 50%;
+
+    width: 6vw;
+}
+body{
+    text-align: center;
+    background-color: #d8d7a9;
+} 
+#resultado{
+    font-size: 3vw;
+}
+p{
+    font-size: 3vw;
+}
+label{
+    color: aliceblue;
+}
